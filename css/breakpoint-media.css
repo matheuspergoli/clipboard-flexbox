@@ -56,7 +56,7 @@
 
 @media (max-width: 576px) {
     .btn {
-        width: 330px !important;
+        width: 300px !important;
         height: 55px !important;
         line-height: 55px !important;
     }
@@ -83,8 +83,23 @@
 }
 
 /* SECTION COMPUTER INFO */
-@media (max-width: 1140px) {
+@media (max-width: 1147px) {
+    #section-computer_info {
+        width: 100% !important;
+        justify-content: center !important;
+        flex-direction: row !important;
+    }
+}
+
+@media (max-width: 1147px) {
     #section-computer_info h1,p {
         text-align: center;
+    }
+}
+
+/* IMAGE DEVICE */
+@media (max-width: 992px) {
+    #container-img-device > img {
+        width: 100% !important;
     }
 }
