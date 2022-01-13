@@ -35,20 +35,26 @@
 }
 
 /* FONT SIZE */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     h1 {
         font-size: 2.7rem !important;
     }
 }
 
+@media (max-width: 576px) {
+    p {
+        font-size: 1.6rem !important;
+    }
+}
+
 /* BUTTONS */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     #container-btn {
         gap: 20px !important;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .btn {
         width: 330px !important;
         height: 55px !important;
