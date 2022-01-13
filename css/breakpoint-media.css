@@ -34,10 +34,23 @@
     }
 }
 
+/* FONT SIZE */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem !important;
+    }
+}
+
 /* BUTTONS */
 @media (max-width: 768px) {
+    #container-btn {
+        gap: 20px !important;
+    }
+}
+
+@media (max-width: 768px) {
     .btn {
-        width: 300px !important;
+        width: 330px !important;
         height: 55px !important;
         line-height: 55px !important;
     }
