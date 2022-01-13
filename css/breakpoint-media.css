@@ -34,6 +34,15 @@
     }
 }
 
+/* BUTTONS */
+@media (max-width: 768px) {
+    .btn {
+        width: 300px !important;
+        height: 55px !important;
+        line-height: 55px !important;
+    }
+}
+
 /* SECTION COMPUTER*/
 @media (max-width: 1264px) {
     #section-computer {
@@ -47,8 +56,9 @@
     }
 }
 
+/* SECTION COMPUTER IMG */
 @media (max-width: 1500px) {
-    #section-computer > :nth-child(1) {
+    #section-computer_img {
         margin-bottom: 50px;
     }
 }
