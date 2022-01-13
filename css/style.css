@@ -72,3 +72,14 @@
     flex-wrap: wrap;
     gap: 50px;
 }
+
+/* CONTAINER LOGOS*/
+#container-logos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#container-logos > * {
+    flex-basis: 150px;
+}

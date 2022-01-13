@@ -103,3 +103,12 @@
         width: 100% !important;
     }
 }
+
+/* CONTAINER LOGOS*/
+@media (max-width: 992px) {
+    #container-logos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
