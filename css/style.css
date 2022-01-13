@@ -1,0 +1,48 @@
+/* HEADER */
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/images/bg-header-desktop.png);
+}
+
+/* BUTTONS */
+#container-btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.btn {
+    flex-shrink: 0;
+    width: 200px;
+    height: 45px;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+/* SECTION COMPUTER */
+#section-computer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+/* SECTION COMPUTER INFO */
+#section-computer_info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+}

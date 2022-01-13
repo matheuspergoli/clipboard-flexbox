@@ -1,0 +1,61 @@
+/* CONTAINER */
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+}
+@media (min-width: 576.99px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
+}
+
+/* SECTION COMPUTER*/
+@media (max-width: 1264px) {
+    #section-computer {
+        gap: 0px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #section-computer_img > img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1500px) {
+    #section-computer > :nth-child(1) {
+        margin-bottom: 50px;
+    }
+}
+
+/* SECTION COMPUTER INFO */
+@media (max-width: 1140px) {
+    #section-computer_info h1,p {
+        text-align: center;
+    }
+}
