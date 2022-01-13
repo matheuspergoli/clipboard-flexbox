@@ -64,3 +64,11 @@
     flex-wrap: wrap;
     gap: 50px;
 }
+
+/* SECTION 3 COL*/
+#section-3col {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
