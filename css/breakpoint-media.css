@@ -49,7 +49,7 @@
 
 /* BUTTONS */
 @media (max-width: 576px) {
-    #container-btn {
+    .container-btn {
         gap: 20px !important;
     }
 }
