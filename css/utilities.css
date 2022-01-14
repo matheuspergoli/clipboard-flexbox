@@ -67,3 +67,7 @@ p {
 .bg-light-blue {
     background-color: var(--light-blue);
 }
+
+.bg-footer {
+    background-color: hsl(201, 11%, 66%, 0.2);
+}
