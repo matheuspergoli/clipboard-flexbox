@@ -118,3 +118,15 @@ footer {
     display: flex;
     gap: 35px;
 }
+
+/* ANIMATE SCROLL */
+.js-scroll {
+    opacity: 0;
+    transition-duration: 300ms;
+    transform: translate3d(-50px, 0, 0);
+}
+
+.js-scroll.active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
